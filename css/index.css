@@ -3,3 +3,22 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.jumbotron h1{
+    background-color: white;
+    margin-left:300px;
+    margin-right: 300px;
+    padding: 5px;
+    
+    opacity: 0.9;
+    
+}
+.jumbotron p{
+    background-color: white;
+    margin-left:300px;
+    margin-right: 300px;
+    opacity: 0.9;
+    padding: 20px;
+    margin-top: -10px;
+    
+}
+
