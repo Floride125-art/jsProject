@@ -56,30 +56,30 @@
           <form name="TheForm" class="finalForm" onsubmit="validate();">
             <div class="year">
               <label for="number">BirthYear/Year you were born:</label>
-              <input type="number" class="form-control" id="year" placeholder="BirthYear like 2000" name="year">
+              <input type="number" class="myYear" id="year" placeholder="BirthYear like 2000" name="year">
             </div>
             <div class="Month">
               <label for="month">BirthMonth/Month you were born:</label>
-              <input type="number" class="form-control" id="month" placeholder="BirthMonth like 08" name="month">
+              <input type="number" class="myMonth" id="month" placeholder="BirthMonth like 08" name="month">
             </div>
             <div class="Day">
               <label for="date">BirthDay/Day you were born:</label>
-              <input type="number" class="form-control" id="date" placeholder="BornDay like 20" name="date">
+              <input type="number" class="myDay" id="day" placeholder="BornDay like 20" name="day">
             </div>
             <div class="Gender">
               <label for="month">Gender</label><br>
               <div class="Male">
-                <label class="form-check-label">
-                  <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+                <label class="theMale">
+                  <input type="radio" class="myMale" name="gender" id="male">&nbsp; Male 
                 </label>
               </div>
               <div class="Female">
-                <label class="form-check-label">
-                  <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+                <label class="theFemale">
+                  <input type="radio" class="myFemale" name="gender" id="female">&nbsp; Female 
                 </label>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary" onclick="findName();">Get Name</button>
+            <button type="submit" class="myButton" onclick="findName();">Get Name</button>
             <br>
           </form>
           <p id="results"> </p>
