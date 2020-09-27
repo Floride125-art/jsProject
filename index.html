@@ -49,41 +49,22 @@
             </ul>
           </div>
         </div>
-      </div>   
-      <div class="top">
-        <div class="formfill">
-          <h2>Plz fill the form below and get your Akan Name!</h2>
-          <form name="TheForm" class="finalForm" onsubmit="validate();">
-            <div class="year">
-              <label for="number">BirthYear/Year you were born:</label>
-              <input type="number" class="myYear" id="year" placeholder="BirthYear like 2000" name="year">
-            </div>
-            <div class="Month">
-              <label for="month">BirthMonth/Month you were born:</label>
-              <input type="number" class="myMonth" id="month" placeholder="BirthMonth like 08" name="month">
-            </div>
-            <div class="Day">
-              <label for="date">BirthDay/Day you were born:</label>
-              <input type="number" class="myDay" id="day" placeholder="BornDay like 20" name="day">
-            </div>
-            <div class="Gender">
-              <label for="month">Gender</label><br>
-              <div class="Male">
-                <label class="theMale">
-                  <input type="radio" class="myMale" name="gender" id="male">&nbsp; Male 
-                </label>
-              </div>
-              <div class="Female">
-                <label class="theFemale">
-                  <input type="radio" class="myFemale" name="gender" id="female">&nbsp; Female 
-                </label>
-              </div>
-            </div>
-            <button type="submit" class="myButton" onclick="findName();">Get Name</button>
-            <br>
-          </form>
-          <p id="results"> </p>
-        </div>
+      </div>
+      <div class="details">
+        <h4>Please Fill the form below to get your Akan Name!</h4>
+        <div class="formCont">
+            <form>
+              <lebel for="number">Enter your Birth Year/ Born Year: </lebel>
+              <input type="number" id="year" placeholder="Birth year like 2002......"><br>
+              <lebel for="number">Enter Your Birth Month Born Month: </lebel>
+              <input type="number" id="month" placeholder="Birth Month like 02...."><br>
+              <lebel for="number">Enter your Birth Day/ Born Day: </lebel>
+              <input type="text" id="day" placeholder="Birth Day like 07"><br>
+              <label for="message" style="color:black; font-weight: bold;">Message</label>
+              <textarea id="message" name="message" placeholder="Write something.."></textarea><br>          
+              <input class="sendsh" type="submit" value="send" >
+            </form>
+          </div>
     </div>
     <script src="Javascript/form.js"></script>
 </body>
