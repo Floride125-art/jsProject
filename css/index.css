@@ -85,3 +85,15 @@ textarea{
     color: white;
     margin-left: 25%;
 }
+footer{
+    background-color: black;
+    padding: 2%;
+}
+.coprighti{
+    color: white;
+    text-align: center;
+}
+.formCont p{
+    font-weight: bold;
+    margin-top: 2%;
+}
