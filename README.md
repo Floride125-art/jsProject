@@ -20,6 +20,8 @@ When you are accessing this form, there are few things you should put into consi
 * Phone: +250780674917
 #### License and copyright
 MIT License
+#### The link to my live page
+https://floride125-art.github.io/jsProject/
 
 © 2020 FT E-Portfolio
 
