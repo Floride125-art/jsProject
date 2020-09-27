@@ -54,16 +54,21 @@
         <h4>Please Fill the form below to get your Akan Name!</h4>
         <div class="formCont">
             <form>
+              <lebel for="number">Enter your Century: </lebel>
+              <input type="number" id="century" placeholder="century like 19 or 20...."><br>
               <lebel for="number">Enter your Birth Year/ Born Year: </lebel>
-              <input type="number" id="year" placeholder="Birth year like 2002......"><br>
+              <input type="number" id="year" name ="year" placeholder="Birth year like 2002......"><br>
               <lebel for="number">Enter Your Birth Month Born Month: </lebel>
-              <input type="number" id="month" placeholder="Birth Month like 02...."><br>
+              <input type="number" id="month" name ="month" placeholder="Birth Month like 02...."><br>
               <lebel for="number">Enter your Birth Day/ Born Day: </lebel>
-              <input type="text" id="day" placeholder="Birth Day like 07"><br>
-              <label for="message" style="color:black; font-weight: bold;">Message</label>
-              <textarea id="message" name="message" placeholder="Write something.."></textarea><br>          
-              <input class="sendsh" type="submit" value="send" >
+              <input type="text" id="day" name ="day" placeholder="Birth Day like 07"><br>
+              <label for="gender"> Select Your Gender</label><br>
+              <label class="theMale"><input type="radio" name ="gender" id ="male">Male</label>
+              <label class="theFemale"><input type="radio" name ="gender" id ="female">Female</label><br>      
+              <input class="sendsh" type="submit" value="Get Akan Name" onclick="findName();">
             </form>
+            <p class="answer">Your Name is:</p>
+            <span id="result"></span>
           </div>
     </div>
     <script src="Javascript/form.js"></script>
